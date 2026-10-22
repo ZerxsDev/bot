@@ -1,0 +1,22 @@
+{
+  "name": "zerxsbot",
+  "version": "1.0.0",
+  "description": "ZerxsBot - Bot WhatsApp multi-fungsi berbasis Baileys dengan panel web pairing, Google Spreadsheet database, dan AI OpenRouter.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "web": "node index.js"
+  },
+  "keywords": ["whatsapp", "baileys", "bot", "zerxsbot"],
+  "author": "ZerxsDev",
+  "license": "MIT",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "axios": "^1.7.7",
+    "express": "^4.21.0",
+    "express-session": "^1.18.1",
+    "qrcode": "^1.5.4",
+    "body-parser": "^1.20.3",
+    "crypto": "^1.0.1"
+  }
+}
